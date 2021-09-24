@@ -38,9 +38,9 @@ public class LocalizacaoActivity extends AppCompatActivity implements SensorEven
 
     private boolean mTrackingLocation;
 
-    private final String lastLatitude = "";
-    private final String lastLongitude = "";
-    private final String lastAdress = "";
+    private String lastLatitude = "";
+    private String lastLongitude = "";
+    private String lastAdress = "";
 
     private CustomView mCustomView;
 
@@ -216,6 +216,14 @@ public class LocalizacaoActivity extends AppCompatActivity implements SensorEven
 
     @Override
     public void onTaskCompleted(String[] result) {
+        if (mTrackingLocation) {
+            // Update the UI
+            lastLatitude = result[1];
+            lastLongitude = result[2];
+            lastAdress = result[0];
+            mLocationTextView.setText(getString(R.string.address_text,
+                    lastAdress, lastLatitude, lastLongitude));
+        }
 
     }
 }
