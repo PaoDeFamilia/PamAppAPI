@@ -4,3 +4,4 @@
 - O aplicativo utiliza uma [API própria](https://github.com/PaoDeFamilia/PamWebAPI) desenvolvida em ASP.NET Core Web API (C#).
 - Foi utilizado Docker para o acesso da API pelo dispositivo móvel assim sendo possível essa integração.
 <br>
+[Clique aqui parar ver o vídeo do aplicativo](https://youtu.be/3svfqhgYyyc)
