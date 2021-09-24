@@ -3,5 +3,4 @@
 - Aplicativo Mobile (android) feito em Java para o componente de PAM com a temática de Pokémon, baseado na [PokéAPI](https://pokeapi.co/docs/v2#pokemon).
 - O aplicativo utiliza uma [API própria](https://github.com/PaoDeFamilia/PamWebAPI) desenvolvida em ASP.NET Core Web API (C#).
 - Foi utilizado Docker para o acesso da API pelo dispositivo móvel assim sendo possível essa integração.
-<br>
-[Clique aqui parar ver o vídeo do aplicativo](https://youtu.be/3svfqhgYyyc)
+- [Clique aqui parar ver o vídeo do aplicativo](https://youtu.be/3svfqhgYyyc)
