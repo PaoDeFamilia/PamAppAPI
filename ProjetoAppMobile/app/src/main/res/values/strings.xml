@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Projeto API</string>
+
+    <string name="img_splash">pokeball</string>
+    <string name="txt_splash1">from</string>
+    <string name="txt_splash2">Sócios</string>
+
+    <string name="get_location">Obter Localização</string>
+    <string name="textview_hint">""</string>
+    <string name="location_permission_denied">Permissão negada, autorize a aplicação</string>
+    <string name="address_text">"Endereço: %1$s  \n Latitude: %2$s \n Longitude: %3$s"</string>
+
+    <string name="no_location">Localização Indisponível</string>
+    <string name="no_address_found">Endereço não disponível</string>
+    <string name="service_not_available">Serviço Indisponível</string>
+    <string name="invalid_lat_long_used">Coordenadas Inválidas</string>
+    <string name="start_tracking_location">Buscar localização</string>
+    <string name="stop_tracking_location">Parar Busca</string>
+
+    <string name="buscar_poke">Buscar por um Pokémon:</string>
+    <string name="hintidname">Nome ou número</string>
+    <string name="img_busca">botão de busca</string>
+
+    <string name="loading">Carregando…</string>
+    <string name="no_results">Nenhum resultado encontrado</string>
+    <string name="no_search_term">Informe um termo de busca</string>
+    <string name="no_network">Verifique sua conexão</string>
+    <string name="str_empty">""</string>
+
+    <string name="img_poke">sprite do pokemon</string>
+    <string name="img_back">botão de voltar</string>
+    <string name="img_info">botão de info</string>
+    <string name="tipo">Tipo: </string>
+    <string name="btn_ante">Anterior</string>
+    <string name="btn_prox">Próximo</string>
+    <string name="login">Login</string>
+    <string name="password">Senha</string>
+    <string name="criar_conta">Criar conta</string>
+    <string name="favicon">icone de favorito</string>
+    <string name="localizacao">localização</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="btn_login">Fazer login</string>
+    <string name="novo_usuario">Novo usuário? Crie uma conta.</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="nome_completo">Nome completo:</string>
+    <string name="nome_hint">Ash Ketchum</string>
+    <string name="nome_usuario">Nome de usuário:</string>
+    <string name="user_hint">Campeão Ash</string>
+    <string name="senha">Senha:</string>
+    <string name="confirmar_senha">Confirmar senha:</string>
+    <string name="email">Email:</string>
+    <string name="login_hint">Email</string>
+    <string name="email_hint">ash@rotomail.com</string>
+    <string name="conta_existente">Já tem uma conta? Faça login.</string>
+    <string name="deslogado">Você não está conectado a uma conta.\nConecte-se para continuar.</string>
+    <string name="btn_logout">fazer logout</string>
+</resources>

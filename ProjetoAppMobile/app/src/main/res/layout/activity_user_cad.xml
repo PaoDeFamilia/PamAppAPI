@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserCadActivity">
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43">
+
+        <TextView
+            android:id="@+id/txtCad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="@string/cadastro"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/blue_grey_800"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <TextView
+            android:id="@+id/txtNomeCad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nome_completo"
+            android:textColor="@color/grey_900"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/eTxtNomeUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/nome_hint"
+            android:inputType="textPersonName"
+            android:paddingTop="4dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/txtUserCad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nome_usuario"
+            android:textColor="@color/grey_900"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/eTxtUserUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/user_hint"
+            android:inputType="textPersonName"
+            android:paddingTop="4dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/txtSenhaCad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/senha"
+            android:textColor="@color/grey_900"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/eTxtSenhaUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/password"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:paddingTop="4dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/txtConfSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/confirmar_senha"
+            android:textColor="@color/grey_900"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/eTxtConfSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/password"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:paddingTop="4dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/txtEmailCad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:textColor="@color/grey_900"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/eTxtEmailUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/email_hint"
+            android:inputType="textEmailAddress"
+            android:paddingTop="4dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/btnCad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/blue_grey_800"
+            android:onClick="cadastraUser"
+            android:text="@string/criar_conta"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnTConta"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:onClick="fazerLogin"
+            android:text="@string/conta_existente"
+            android:textAllCaps="false"
+            android:textColor="@color/blue_grey_800"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
